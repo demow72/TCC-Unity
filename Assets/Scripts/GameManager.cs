@@ -38,4 +38,9 @@ public class GameManager : MonoBehaviour {
 			}
 		}
 	}
+
+	public void removeEnemyFromScreen(){
+		if (enemiesOnScreen > 0)
+			enemiesOnScreen = enemiesOnScreen - 1;           //Decrementamos os inimigos na tela, função chamada no gameManager pra remover os inimigos que já chegaram no FINISH ou foram abatidos
+	}
 }
