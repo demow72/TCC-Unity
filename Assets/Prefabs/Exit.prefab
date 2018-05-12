@@ -20,7 +20,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4017670263573780}
   - component: {fileID: 61915161758584966}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Exit
   m_TagString: Finish
   m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
